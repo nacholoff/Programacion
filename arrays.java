@@ -1,6 +1,6 @@
 public class arrays {
     /**
-     * @param args
+     * @param argssss
      */
     public static void main(String[] args) {
         
