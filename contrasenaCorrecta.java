@@ -1,20 +1,26 @@
-import java.net.PasswordAuthentication;
 
 public class contrasenaCorrecta {
     public static void main(String[] args) {
 
-        String passWord = "asrseg123";
-        
-        boolean valido = true;
-        int contador = 0;
+        String password = "gf6assssssssssssdfgjk";
+        String regex = "^[a-zA-Z0-9]*";
+        Boolean validador = true;
+        int contadorNums = 0;
+        System.out.println(password.matches(regex));
 
-        if ((passWord.length() == 9) && (year % 100 != 0) || (year % 400 == 0)) {
-            System.out.println("THIS YEAR "+year+" is BISIESTUS");
-        } else {
-            System.out.println("El año no es bisiesto");
-            
+        if (password.length()>10) {
+            validador = false;
+        }
+        if (!password.matches(regex)) {
+            validador = false;
+        }
+        for(char c: password.toCharArray()){
+
+            if (Character.isDigit(c)) {
+                contadorNums = contadorNums++;
+                
+            }
         }
 
-    
     }
 }
