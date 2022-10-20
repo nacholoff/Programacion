@@ -2,10 +2,10 @@ import  java.lang.Math;
 public class capicua {
     public static void main(String[] args) {
        //sacar las 4 cifras de un num de 4 cifras
-       int num = 11111;
+       final int num = 11111;
        int num1 = num;
        int tamaño = 5;
-       int inverso = 0;
+    
         
         int cifras[]= new int[5];
     

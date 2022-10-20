@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Scanner;
 
 public class Array4 {
 
@@ -18,7 +17,7 @@ public class Array4 {
         for(int i=0;i<numeros.length;i++){
             numeros[i]=generaNumeroAleatorio(0,10);
             System.out.println("En la posicion "+i+" esta el valor: "+numeros[i]);
-        }
+        }sn.close();
         
     }
     
@@ -28,6 +27,7 @@ public class Array4 {
         return (int)Math.floor(Math.random()*(minimo-(maximo+1))+(maximo+1));
         
     }
+    
     
 }
 

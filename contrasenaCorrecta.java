@@ -2,7 +2,7 @@
 public class contrasenaCorrecta {
     public static void main(String[] args) {
 
-        String password = "gf6assssssssssssdfgjk";
+        String password = "1";
         String regex = "^[a-zA-Z0-9]*";
         Boolean validador = true;
         int contadorNums = 0;

@@ -27,5 +27,6 @@ public class Array3 {
             for(int i = 0; i<numeros.length;i++ ){
                 System.out.println(numeros[i]);
             }
+            sn.close();
     }
 }
